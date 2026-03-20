@@ -2,20 +2,20 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-black border-t border-white/10">
+    <footer className="bg-navy-950 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center">
-                <span className="text-black font-heading font-bold text-lg">M</span>
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-ocean-400 to-ocean-600 flex items-center justify-center">
+                <span className="text-white font-heading font-bold text-lg">M</span>
               </div>
               <div>
                 <span className="text-white font-heading text-xl font-semibold">
                   Marina Towers
                 </span>
-                <span className="block text-gold-400 text-xs tracking-[0.3em] uppercase">
+                <span className="block text-ocean-400 text-xs tracking-[0.3em] uppercase">
                   Rentals
                 </span>
               </div>
@@ -29,22 +29,22 @@ export default function Footer() {
 
           {/* Quick links */}
           <div>
-            <h3 className="text-gold-400 font-heading text-sm uppercase tracking-widest mb-4">
+            <h3 className="text-ocean-400 font-heading text-sm uppercase tracking-widest mb-4">
               Quick Links
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/" className="text-white/50 hover:text-gold-400 transition-colors text-sm">
+                <Link href="/" className="text-white/50 hover:text-ocean-400 transition-colors text-sm">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/listings" className="text-white/50 hover:text-gold-400 transition-colors text-sm">
+                <Link href="/listings" className="text-white/50 hover:text-ocean-400 transition-colors text-sm">
                   Browse Listings
                 </Link>
               </li>
               <li>
-                <Link href="/submit" className="text-white/50 hover:text-gold-400 transition-colors text-sm">
+                <Link href="/submit" className="text-white/50 hover:text-ocean-400 transition-colors text-sm">
                   List Your Property
                 </Link>
               </li>
@@ -53,7 +53,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-gold-400 font-heading text-sm uppercase tracking-widest mb-4">
+            <h3 className="text-ocean-400 font-heading text-sm uppercase tracking-widest mb-4">
               Contact
             </h3>
             <ul className="space-y-3 text-white/50 text-sm">

@@ -30,24 +30,24 @@ export default function ListingDetailPage({
   return (
     <div className="pt-20">
       {/* Breadcrumb */}
-      <div className="bg-black border-b border-white/10">
+      <div className="bg-navy-950 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-white/40 hover:text-gold-400 transition-colors">
+            <Link href="/" className="text-white/40 hover:text-ocean-400 transition-colors">
               Home
             </Link>
             <span className="text-white/20">/</span>
-            <Link href="/listings" className="text-white/40 hover:text-gold-400 transition-colors">
+            <Link href="/listings" className="text-white/40 hover:text-ocean-400 transition-colors">
               Listings
             </Link>
             <span className="text-white/20">/</span>
-            <span className="text-gold-400">{listing.title}</span>
+            <span className="text-ocean-400">{listing.title}</span>
           </div>
         </div>
       </div>
 
       {/* Image Gallery */}
-      <section className="bg-black">
+      <section className="bg-navy-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="aspect-[4/3] overflow-hidden">
@@ -79,7 +79,7 @@ export default function ListingDetailPage({
             {/* Main content */}
             <div className="lg:col-span-2">
               <div className="mb-6">
-                <span className="bg-gold-500 text-black text-xs font-bold px-3 py-1 uppercase tracking-wider">
+                <span className="bg-ocean-500 text-white text-xs font-bold px-3 py-1 uppercase tracking-wider">
                   Available Now
                 </span>
               </div>
@@ -139,7 +139,7 @@ export default function ListingDetailPage({
                     className="flex items-center gap-2 text-white/60 text-sm"
                   >
                     <svg
-                      className="w-4 h-4 text-gold-400 flex-shrink-0"
+                      className="w-4 h-4 text-ocean-400 flex-shrink-0"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -159,10 +159,10 @@ export default function ListingDetailPage({
 
             {/* Sidebar */}
             <div className="lg:col-span-1">
-              <div className="sticky top-28 bg-neutral-900 border border-white/10 p-8">
+              <div className="sticky top-28 bg-navy-900 border border-white/10 p-8">
                 <div className="mb-6">
                   <div className="text-white/40 text-sm mb-1">Monthly Rent</div>
-                  <div className="text-gold-400 font-heading text-4xl font-bold">
+                  <div className="text-ocean-400 font-heading text-4xl font-bold">
                     ${listing.price.toLocaleString()}
                   </div>
                   <div className="text-white/40 text-sm">per {listing.period}</div>
@@ -177,7 +177,7 @@ export default function ListingDetailPage({
 
                   <Link
                     href="/listings"
-                    className="flex items-center justify-center gap-2 border border-white/20 hover:border-gold-500 text-white hover:text-gold-400 px-6 py-3 font-semibold transition-all w-full"
+                    className="flex items-center justify-center gap-2 border border-white/20 hover:border-ocean-500 text-white hover:text-ocean-400 px-6 py-3 font-semibold transition-all w-full"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />

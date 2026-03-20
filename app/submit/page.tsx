@@ -14,8 +14,8 @@ export default function SubmitPage() {
     return (
       <div className="pt-20 min-h-screen flex items-center justify-center">
         <div className="max-w-md mx-auto px-4 text-center">
-          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center">
-            <svg className="w-10 h-10 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-ocean-500/10 border border-ocean-500/30 flex items-center justify-center">
+            <svg className="w-10 h-10 text-ocean-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
@@ -28,7 +28,7 @@ export default function SubmitPage() {
           </p>
           <a
             href="/"
-            className="inline-block bg-gold-500 hover:bg-gold-600 text-black px-8 py-3 font-semibold uppercase tracking-wide transition-colors"
+            className="inline-block bg-ocean-500 hover:bg-ocean-600 text-white px-8 py-3 font-semibold uppercase tracking-wide transition-colors"
           >
             Back to Home
           </a>
@@ -40,9 +40,9 @@ export default function SubmitPage() {
   return (
     <div className="pt-20">
       {/* Header */}
-      <section className="bg-black py-20 border-b border-white/10">
+      <section className="bg-navy-950 py-20 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <span className="text-gold-400 text-xs tracking-[0.3em] uppercase font-medium">
+          <span className="text-ocean-400 text-xs tracking-[0.3em] uppercase font-medium">
             Property Owners
           </span>
           <h1 className="font-heading text-4xl sm:text-5xl font-bold text-white mt-3 mb-4">
@@ -73,7 +73,7 @@ export default function SubmitPage() {
                   <input
                     type="text"
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="John Doe"
                   />
                 </div>
@@ -84,7 +84,7 @@ export default function SubmitPage() {
                   <input
                     type="email"
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -95,7 +95,7 @@ export default function SubmitPage() {
                   <input
                     type="tel"
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="+1 234 567 890"
                   />
                 </div>
@@ -106,7 +106,7 @@ export default function SubmitPage() {
                   <input
                     type="tel"
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="+1 234 567 890"
                   />
                 </div>
@@ -126,7 +126,7 @@ export default function SubmitPage() {
                   <input
                     type="text"
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="e.g. Luxury Penthouse with Marina View"
                   />
                 </div>
@@ -136,14 +136,14 @@ export default function SubmitPage() {
                   </label>
                   <select
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                   >
-                    <option value="" className="bg-neutral-900">Select</option>
-                    <option value="studio" className="bg-neutral-900">Studio</option>
-                    <option value="1" className="bg-neutral-900">1 Bedroom</option>
-                    <option value="2" className="bg-neutral-900">2 Bedrooms</option>
-                    <option value="3" className="bg-neutral-900">3 Bedrooms</option>
-                    <option value="4" className="bg-neutral-900">4+ Bedrooms</option>
+                    <option value="" className="bg-navy-900">Select</option>
+                    <option value="studio" className="bg-navy-900">Studio</option>
+                    <option value="1" className="bg-navy-900">1 Bedroom</option>
+                    <option value="2" className="bg-navy-900">2 Bedrooms</option>
+                    <option value="3" className="bg-navy-900">3 Bedrooms</option>
+                    <option value="4" className="bg-navy-900">4+ Bedrooms</option>
                   </select>
                 </div>
                 <div>
@@ -152,13 +152,13 @@ export default function SubmitPage() {
                   </label>
                   <select
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                   >
-                    <option value="" className="bg-neutral-900">Select</option>
-                    <option value="1" className="bg-neutral-900">1 Bathroom</option>
-                    <option value="2" className="bg-neutral-900">2 Bathrooms</option>
-                    <option value="3" className="bg-neutral-900">3 Bathrooms</option>
-                    <option value="4" className="bg-neutral-900">4+ Bathrooms</option>
+                    <option value="" className="bg-navy-900">Select</option>
+                    <option value="1" className="bg-navy-900">1 Bathroom</option>
+                    <option value="2" className="bg-navy-900">2 Bathrooms</option>
+                    <option value="3" className="bg-navy-900">3 Bathrooms</option>
+                    <option value="4" className="bg-navy-900">4+ Bathrooms</option>
                   </select>
                 </div>
                 <div>
@@ -169,7 +169,7 @@ export default function SubmitPage() {
                     type="number"
                     required
                     min="1"
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="e.g. 150"
                   />
                 </div>
@@ -181,7 +181,7 @@ export default function SubmitPage() {
                     type="number"
                     required
                     min="1"
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="e.g. 25"
                   />
                 </div>
@@ -193,7 +193,7 @@ export default function SubmitPage() {
                     type="number"
                     required
                     min="1"
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="e.g. 5000"
                   />
                 </div>
@@ -204,7 +204,7 @@ export default function SubmitPage() {
                   <input
                     type="date"
                     required
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                   />
                 </div>
                 <div className="sm:col-span-2">
@@ -214,7 +214,7 @@ export default function SubmitPage() {
                   <textarea
                     required
                     rows={5}
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors resize-none"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors resize-none"
                     placeholder="Describe your property, its features, views, and what makes it special..."
                   />
                 </div>
@@ -224,7 +224,7 @@ export default function SubmitPage() {
                   </label>
                   <input
                     type="text"
-                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors"
+                    className="w-full bg-white/5 border border-white/10 text-white px-4 py-3 focus:outline-none focus:border-ocean-500 transition-colors"
                     placeholder="e.g. Pool, Gym, Parking, Concierge (comma separated)"
                   />
                 </div>
@@ -235,7 +235,7 @@ export default function SubmitPage() {
             <div className="pt-6 border-t border-white/10">
               <button
                 type="submit"
-                className="w-full sm:w-auto bg-gold-500 hover:bg-gold-600 text-black px-12 py-4 text-sm font-bold tracking-widest uppercase transition-colors"
+                className="w-full sm:w-auto bg-ocean-500 hover:bg-ocean-600 text-white px-12 py-4 text-sm font-bold tracking-widest uppercase transition-colors"
               >
                 Submit Listing
               </button>

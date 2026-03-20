@@ -10,11 +10,11 @@
   }
 
   body {
-    @apply bg-neutral-950 text-white font-body antialiased;
+    @apply bg-navy-950 text-white font-body antialiased;
   }
 
   ::selection {
-    @apply bg-gold-500/30 text-white;
+    @apply bg-ocean-500/30 text-white;
   }
 }
 

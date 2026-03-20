@@ -8,7 +8,7 @@ interface ListingCardProps {
 
 export default function ListingCard({ listing }: ListingCardProps) {
   return (
-    <div className="group bg-neutral-900 border border-white/10 hover:border-gold-500/50 transition-all duration-300 overflow-hidden">
+    <div className="group bg-navy-900 border border-white/10 hover:border-ocean-500/50 transition-all duration-300 overflow-hidden">
       {/* Image */}
       <div className="relative overflow-hidden aspect-[4/3]">
         <img
@@ -17,7 +17,7 @@ export default function ListingCard({ listing }: ListingCardProps) {
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute top-4 left-4">
-          <span className="bg-gold-500 text-black text-xs font-bold px-3 py-1 uppercase tracking-wider">
+          <span className="bg-ocean-500 text-white text-xs font-bold px-3 py-1 uppercase tracking-wider">
             Available
           </span>
         </div>
@@ -73,14 +73,14 @@ export default function ListingCard({ listing }: ListingCardProps) {
         {/* Price + CTA */}
         <div className="flex items-center justify-between pt-5 border-t border-white/10">
           <div>
-            <span className="text-gold-400 font-heading text-2xl font-bold">
+            <span className="text-ocean-400 font-heading text-2xl font-bold">
               ${listing.price.toLocaleString()}
             </span>
             <span className="text-white/40 text-sm">/{listing.period}</span>
           </div>
           <Link
             href={`/listings/${listing.id}`}
-            className="bg-white/5 hover:bg-gold-500 border border-white/20 hover:border-gold-500 text-white hover:text-black px-5 py-2.5 text-sm font-semibold uppercase tracking-wide transition-all"
+            className="bg-white/5 hover:bg-ocean-500 border border-white/20 hover:border-ocean-500 text-white hover:text-white px-5 py-2.5 text-sm font-semibold uppercase tracking-wide transition-all"
           >
             View Details
           </Link>

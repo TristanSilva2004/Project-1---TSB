@@ -7,18 +7,18 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-gold-600/20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-navy-950/90 backdrop-blur-md border-b border-ocean-600/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center">
-              <span className="text-black font-heading font-bold text-lg">M</span>
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-ocean-400 to-ocean-600 flex items-center justify-center">
+              <span className="text-white font-heading font-bold text-lg">M</span>
             </div>
             <div>
               <span className="text-white font-heading text-xl font-semibold tracking-wide">
                 Marina Towers
               </span>
-              <span className="block text-gold-400 text-xs tracking-[0.3em] uppercase">
+              <span className="block text-ocean-400 text-xs tracking-[0.3em] uppercase">
                 Rentals
               </span>
             </div>
@@ -28,25 +28,25 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-8">
             <Link
               href="/"
-              className="text-white/80 hover:text-gold-400 transition-colors text-sm tracking-wide uppercase"
+              className="text-white/80 hover:text-ocean-400 transition-colors text-sm tracking-wide uppercase"
             >
               Home
             </Link>
             <Link
               href="/listings"
-              className="text-white/80 hover:text-gold-400 transition-colors text-sm tracking-wide uppercase"
+              className="text-white/80 hover:text-ocean-400 transition-colors text-sm tracking-wide uppercase"
             >
               Listings
             </Link>
             <Link
               href="/submit"
-              className="text-white/80 hover:text-gold-400 transition-colors text-sm tracking-wide uppercase"
+              className="text-white/80 hover:text-ocean-400 transition-colors text-sm tracking-wide uppercase"
             >
               List Your Property
             </Link>
             <Link
               href="/listings"
-              className="bg-gold-500 hover:bg-gold-600 text-black px-6 py-2.5 text-sm font-semibold tracking-wide uppercase transition-colors"
+              className="bg-ocean-500 hover:bg-ocean-600 text-white px-6 py-2.5 text-sm font-semibold tracking-wide uppercase transition-colors"
             >
               Find Your Stay
             </Link>
@@ -74,28 +74,28 @@ export default function Navbar() {
             <Link
               href="/"
               onClick={() => setMenuOpen(false)}
-              className="block text-white/80 hover:text-gold-400 transition-colors text-sm tracking-wide uppercase"
+              className="block text-white/80 hover:text-ocean-400 transition-colors text-sm tracking-wide uppercase"
             >
               Home
             </Link>
             <Link
               href="/listings"
               onClick={() => setMenuOpen(false)}
-              className="block text-white/80 hover:text-gold-400 transition-colors text-sm tracking-wide uppercase"
+              className="block text-white/80 hover:text-ocean-400 transition-colors text-sm tracking-wide uppercase"
             >
               Listings
             </Link>
             <Link
               href="/submit"
               onClick={() => setMenuOpen(false)}
-              className="block text-white/80 hover:text-gold-400 transition-colors text-sm tracking-wide uppercase"
+              className="block text-white/80 hover:text-ocean-400 transition-colors text-sm tracking-wide uppercase"
             >
               List Your Property
             </Link>
             <Link
               href="/listings"
               onClick={() => setMenuOpen(false)}
-              className="inline-block bg-gold-500 hover:bg-gold-600 text-black px-6 py-2.5 text-sm font-semibold tracking-wide uppercase transition-colors"
+              className="inline-block bg-ocean-500 hover:bg-ocean-600 text-white px-6 py-2.5 text-sm font-semibold tracking-wide uppercase transition-colors"
             >
               Find Your Stay
             </Link>
